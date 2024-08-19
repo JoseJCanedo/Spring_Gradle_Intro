@@ -32,7 +32,7 @@ In your GitHub repo select **Add File** and **Upload File** and upload the creat
 - .gitignore
 - The folder you uploaded
 
-Now we can go ahead and clone the repo into your preferred IDE. If you are trying to get it to work on an online IDE like GitPod, follow the next portion, otherwise you need to use your preferred IDE and you can skip the next step. I will be using 
+Now we can go ahead and clone the repo into your preferred IDE. If you are trying to get it to work on an online IDE like GitPod, follow the next portion, otherwise you need to use your preferred IDE and you can skip the next step.
 ***
 ## GitPod Setup
 
@@ -51,14 +51,14 @@ Once it opens within Gitpod we will be adding 2 extensions by clicking on the *E
 After this go to the terminal and run the following commands
 
 ```console
-$ java -version  # outputs a java version, if its not 17 run the following commands
+$ java -version  # outputs a java version, if its not 21 run the following commands
 
-$ sdk list java # Check these list options, you can use 17.0.10-amzn if available if not select another version of 17, jot it down
+$ sdk list java # Check these list options, select a version of 17, jot it down
 
-$ sdk install java 17.0.10-amzn # or any other version 17 you find and want to use
+$ sdk install java nameOfOneSelectedFromCommandAbove # or any other version 21 you find and want to use
 ```
 
-Now you should be able to in the terminal run the command the start your app.
+Now you should be able to, within the terminal, run the command to start your app.
 ```console
 $ gradle bootRun
 ````
@@ -68,7 +68,7 @@ What you should then see in the console would be the program running. It will no
 ***
 ## Spring + Gradle
 
-*Note this would be different with Maven*
+*Note this would be different with Maven and we will only be using gradle*
 
 Looking at our application we created with spring initializer we have the following files with folder names varying slightly depending on your initialized project:
 ```
