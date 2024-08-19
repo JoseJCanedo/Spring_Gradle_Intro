@@ -17,7 +17,7 @@ Before we clone our repo lets head over to [start.spring.io](https://start.sprin
 Use the folowing settings:
 
 - **Project:** Gradle-Groovy (This is the language and package manager used, you can use Maven if you are comfortable with it, but I will be doing gradle)
-- **Language:** Java, make sure to select version 17 (at the bottom)
+- **Language:** Java, make sure to select version 21 (at the bottom)
 - **Spring Boot:** Leave the default
 - **Project Metadata:** Leave default
 - **Depedencies:** Add *Spring Web* and *Lombok*
